@@ -1,0 +1,46 @@
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+h1,h2 {
+    font-family: 'Exo 2', sans-serif;
+}
+/* Body and general styles */
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Search bar */
+.input-group {
+    margin-bottom: 20px;
+
+}
+
+#search-input {
+    border-radius: 20px;
+}
+
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+
